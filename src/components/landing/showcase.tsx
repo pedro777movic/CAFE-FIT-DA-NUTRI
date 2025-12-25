@@ -39,16 +39,21 @@ export function Showcase() {
   return (
     <section className="w-full py-12 md:py-16 lg:py-20 bg-background">
       <div className="container px-4 md:px-6">
+        <ScrollReveal>
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">+500 receitas fit</h2>
+          </div>
+        </ScrollReveal>
         <div className="flex flex-col items-center gap-8">
           {showcaseItems.map((item, index) => (
-            <ScrollReveal key={item.id} delay={index * 100} className="w-full max-w-2xl">
+            <ScrollReveal key={item.id} delay={index * 100} className="w-full max-w-lg">
               <Card className="overflow-hidden shadow-2xl border-2 border-border group">
                 <div className="relative aspect-[4/3] w-full">
                   <Image
                     src={item.imageUrl}
                     alt={item.alt}
                     fill
-                    sizes="(max-width: 768px) 100vw, 672px"
+                    sizes="(max-width: 768px) 100vw, 512px"
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
                     data-ai-hint={item.hint}
                   />
