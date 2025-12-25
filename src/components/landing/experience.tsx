@@ -15,7 +15,7 @@ const features = [
   {
     icon: <Target className="w-10 h-10 text-primary" />,
     title: "Feito para Ser Fácil",
-    description: "Menos tempo pensando, mais tempo vivendo. A simplicidade que gera constância. O resto é consequência.",
+    description: "Menos tempo pensando, mais tempo vivendo. A simplicidade que gera constância. O resultado é inevitável.",
   },
 ]
 
