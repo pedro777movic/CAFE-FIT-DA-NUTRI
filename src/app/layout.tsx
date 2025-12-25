@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster";
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Fit Domination',
-  description: 'Dominate Your Diet. Unleash Your Power.',
+  title: 'O Fim da Luta com a Comida.',
+  description: 'Recupere o controle. Coma com prazer. Transforme seu corpo sem o peso da dieta.',
 };
 
 export default function RootLayout({

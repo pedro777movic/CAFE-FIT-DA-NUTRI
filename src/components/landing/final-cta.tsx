@@ -8,13 +8,13 @@ export function FinalCta() {
         <ScrollReveal>
           <div className="flex flex-col items-center space-y-6 text-center bg-card p-10 rounded-lg shadow-2xl">
             <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl font-headline">
-              Your Domination Starts Now.
+              Sua decisão já foi tomada.
             </h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-              Tired of being average? Join the elite. Download the app and start your transformation today.
+              Você não chegou até aqui por acaso. Cansou de esperar. É hora de ter o controle de volta.
             </p>
             <Button size="lg" variant="secondary" className="text-lg px-10 py-6 font-bold shadow-lg shadow-secondary/20">
-              Become Unstoppable
+              Entrar
             </Button>
           </div>
         </ScrollReveal>

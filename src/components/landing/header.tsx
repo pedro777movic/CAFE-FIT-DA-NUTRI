@@ -11,7 +11,7 @@ export function Header() {
       </Link>
       <span className="ml-4 text-2xl font-bold font-headline">Fit Domination</span>
       <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Button>Get the App</Button>
+        <Button>Quero o controle</Button>
       </nav>
     </header>
   )

@@ -4,18 +4,18 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 const features = [
   {
     icon: <LayoutGrid className="w-10 h-10 text-primary" />,
-    title: "Organized for War",
-    description: "Your entire meal plan, organized and accessible. No distractions. Just a clear path to your objective.",
+    title: "O Fim da Confusão Mental",
+    description: "Sua rotina, organizada. Sem distrações. Um caminho claro para o seu resultado, sem precisar pensar no que fazer.",
   },
   {
     icon: <Smartphone className="w-10 h-10 text-primary" />,
-    title: "Power in Your Pocket",
-    description: "A seamless, powerful interface. Track your macros, plan your meals, and monitor your progress with military precision.",
+    title: "Controle na Sua Mão",
+    description: "Uma interface que obedece. Planeje, execute e veja o progresso acontecer de forma fluida. O poder é seu.",
   },
   {
     icon: <Target className="w-10 h-10 text-primary" />,
-    title: "Simple to Dominate",
-    description: "Designed for simplicity and efficiency. Spend less time planning and more time executing.",
+    title: "Feito para Ser Fácil",
+    description: "Menos tempo pensando, mais tempo vivendo. A simplicidade que gera constância. O resto é consequência.",
   },
 ]
 
@@ -25,9 +25,9 @@ export function Experience() {
       <div className="container px-4 md:px-6">
         <ScrollReveal>
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">An Experience Forged for Victory</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Uma Experiência que Liberta</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our app is your ultimate weapon in the war against weakness.
+              Este não é mais um app de dieta. É um atalho mental.
             </p>
           </div>
         </ScrollReveal>

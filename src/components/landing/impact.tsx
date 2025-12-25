@@ -4,18 +4,18 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 const features = [
   {
     icon: <Dumbbell className="w-12 h-12 text-primary" />,
-    title: "Brute Force Nutrition",
-    description: "No more guesswork. Precision-engineered recipes for maximum muscle gain and fat loss. Fuel your ambition.",
+    title: "Comer sem culpa.",
+    description: "Aquele alívio de comer o que gosta, sabendo que está no caminho certo. Sem autojulgamento. Apenas prazer.",
   },
   {
     icon: <Zap className="w-12 h-12 text-primary" />,
-    title: "Explosive Energy",
-    description: "Unlock peak performance. Meals designed to ignite your metabolism and sustain high-energy output all day long.",
+    title: "Retomar o controle.",
+    description: "A sensação de poder de volta nas suas mãos. Você decide. Você domina. A rotina se torna simples e leve.",
   },
   {
     icon: <ShieldCheck className="w-12 h-12 text-primary" />,
-    title: "Ironclad Discipline",
-    description: "Build unbreakable habits. A structured plan that gives you full control over your body and your goals.",
+    title: "Confiar em si de novo.",
+    description: "Chega de auto sabotagem. A constância se torna fácil quando o processo é feito para você. Apenas siga o fluxo.",
   },
 ]
 
