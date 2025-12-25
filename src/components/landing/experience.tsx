@@ -4,8 +4,8 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 const features = [
   {
     icon: <LayoutGrid className="w-10 h-10 text-primary" />,
-    title: "O Fim da Confusão Mental",
-    description: "Sua rotina, organizada. Sem distrações. Um caminho claro para o seu resultado, sem precisar pensar no que fazer.",
+    title: "O Fim do Caos Mental",
+    description: "Nada para decidir. Nada para calcular. Só seguir — e sentir o corpo responder.",
   },
   {
     icon: <Smartphone className="w-10 h-10 text-primary" />,
