@@ -10,7 +10,7 @@ const features = [
   {
     icon: <Smartphone className="w-10 h-10 text-primary" />,
     title: "Controle na Sua Mão",
-    description: "Uma interface que obedece. Planeje, execute e veja o progresso acontecer de forma fluida. O poder é seu.",
+    description: "Uma interface que obedece. Sem esforço e sem ruído, veja o progresso acontecer de forma fluida. O poder é seu.",
   },
   {
     icon: <Target className="w-10 h-10 text-primary" />,
