@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ScrollReveal } from "@/components/scroll-reveal"
+import { MinimalCountdown } from "@/components/minimal-countdown"
 
 export function FinalCta() {
   return (
@@ -17,6 +18,7 @@ export function FinalCta() {
               <Button size="lg" variant="secondary" className="text-lg px-10 py-6 font-bold shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-shadow">
                 Liberar meu acesso
               </Button>
+              <MinimalCountdown hours={7} />
             </div>
           </div>
         </ScrollReveal>
