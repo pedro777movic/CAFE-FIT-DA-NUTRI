@@ -3,6 +3,7 @@ import { Hero } from '@/components/landing/hero';
 import { Impact } from '@/components/landing/impact';
 import { Categories } from '@/components/landing/categories';
 import { Experience } from '@/components/landing/experience';
+import { Showcase } from '@/components/landing/showcase';
 import { FinalCta } from '@/components/landing/final-cta';
 import { Footer } from '@/components/landing/footer';
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Impact />
         <Categories />
         <Experience />
+        <Showcase />
         <FinalCta />
       </main>
       <Footer />
