@@ -41,7 +41,7 @@ export function Showcase() {
       <div className="container px-4 md:px-6">
         <ScrollReveal>
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">+500 receitas fit</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">+ 500 Receitas Fit</h2>
           </div>
         </ScrollReveal>
         <div className="flex flex-col items-center gap-8">
