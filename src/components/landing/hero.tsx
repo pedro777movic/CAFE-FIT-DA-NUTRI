@@ -14,11 +14,11 @@ export function Hero() {
                 A culpa é.
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl mt-4">
-                Esqueça as regras. Coma com prazer e tenha o corpo que você quer. Sem esforço mental. Apenas liberdade.
+                Um app de receitas fit que elimina o caos mental da dieta e devolve o controle — sem esforço, sem culpa e sem regras.
               </p>
             </div>
             <Button size="lg" className="text-lg px-8 py-6 font-bold">
-              Recuperar meu poder
+              Liberar meu acesso
             </Button>
           </div>
         </ScrollReveal>

@@ -16,8 +16,8 @@ export default function Home() {
         <Hero />
         <Impact />
         <Categories />
-        <Experience />
         <Showcase />
+        <Experience />
         <Testimonials />
         <FinalCta />
       </main>

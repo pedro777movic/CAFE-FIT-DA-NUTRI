@@ -17,8 +17,12 @@ const testimonials = [
     author: "Juliana S.",
   },
   {
-    quote: "Nunca pensei que seria tão fácil comer bem. Sem esforço.",
+    quote: "Nunca pensei que seria tão fácil comer bem.",
     author: "Marcos P.",
+  },
+  {
+    quote: "Isso não é um app. É liberdade.",
+    author: "Beatriz C.",
   },
   {
     quote: "A culpa foi embora. Só ficou o prazer.",
@@ -45,10 +49,6 @@ const testimonials = [
     author: "Lucas G.",
   },
   {
-    quote: "Isso não é um app. É liberdade.",
-    author: "Beatriz C.",
-  },
-  {
     quote: "Minha autoestima mudou junto com meu corpo.",
     author: "Roberto N.",
   },
@@ -73,9 +73,6 @@ export function Testimonials() {
         <ScrollReveal>
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">O controle já foi retomado.</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Não é sobre começar. É sobre continuar.
-            </p>
           </div>
         </ScrollReveal>
         <ScrollReveal delay={200}>

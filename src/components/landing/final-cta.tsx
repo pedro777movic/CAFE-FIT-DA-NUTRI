@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
 import { ScrollReveal } from "@/components/scroll-reveal"
-import { MinimalCountdown } from "@/components/minimal-countdown"
 
 export function FinalCta() {
   return (
@@ -12,13 +11,13 @@ export function FinalCta() {
               Você chegou até aqui.
             </h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-              Este é o ponto de decisão. Apenas quem está pronto avança.
+              Não é sobre começar. É sobre continuar.
             </p>
             <div className="flex flex-col items-center space-y-4">
               <Button size="lg" variant="secondary" className="text-lg px-10 py-6 font-bold shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-shadow">
                 Liberar meu acesso
               </Button>
-              <MinimalCountdown hours={7} />
+               <p className="text-sm text-muted-foreground">Acesso liberado por tempo limitado</p>
             </div>
           </div>
         </ScrollReveal>
