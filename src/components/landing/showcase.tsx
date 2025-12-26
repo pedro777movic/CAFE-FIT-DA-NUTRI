@@ -80,10 +80,10 @@ const showcaseItems2 = [
 
 export function Showcase() {
   const plugin = React.useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: true })
+    Autoplay({ delay: 2000, stopOnInteraction: true })
   )
     const plugin2 = React.useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: true, startDelay: 500 })
+    Autoplay({ delay: 2500, stopOnInteraction: true })
   )
 
   return (
