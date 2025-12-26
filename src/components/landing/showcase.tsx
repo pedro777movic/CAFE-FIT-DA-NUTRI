@@ -45,9 +45,45 @@ const showcaseItems = [
   },
 ]
 
+const showcaseItems2 = [
+    {
+      id: "showcase-6",
+      imageUrl: "https://picsum.photos/seed/15/800/600",
+      alt: "Showcase image 6",
+      hint: "fit dessert"
+    },
+    {
+      id: "showcase-7",
+      imageUrl: "https://picsum.photos/seed/16/800/600",
+      alt: "Showcase image 7",
+      hint: "quick breakfast"
+    },
+    {
+      id: "showcase-8",
+      imageUrl: "https://picsum.photos/seed/17/800/600",
+      alt: "Showcase image 8",
+      hint: "protein shake"
+    },
+    {
+      id: "showcase-9",
+      imageUrl: "https://picsum.photos/seed/18/800/600",
+      alt: "Showcase image 9",
+      hint: "healthy lunch"
+    },
+    {
+      id: "showcase-10",
+      imageUrl: "https://picsum.photos/seed/19/800/600",
+      alt: "Showcase image 10",
+      hint: "meal prep"
+    },
+  ]
+
 export function Showcase() {
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
+  )
+    const plugin2 = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true, startDelay: 500 })
   )
 
   return (
@@ -60,39 +96,75 @@ export function Showcase() {
             </h2>
           </div>
         </ScrollReveal>
-        <ScrollReveal delay={200}>
-          <Carousel
-            plugins={[plugin.current]}
-            className="w-full max-w-4xl mx-auto"
-            onMouseEnter={plugin.current.stop}
-            onMouseLeave={plugin.current.reset}
-            opts={{
-              align: "start",
-              loop: true,
-            }}
-          >
-            <CarouselContent>
-              {showcaseItems.map((item) => (
-                <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1 h-full">
-                    <Card className="overflow-hidden shadow-2xl border-2 border-border group h-full">
-                      <div className="relative aspect-[4/3] w-full">
-                        <Image
-                          src={item.imageUrl}
-                          alt={item.alt}
-                          fill
-                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                          className="object-cover transition-transform duration-300 group-hover:scale-105"
-                          data-ai-hint={item.hint}
-                        />
-                      </div>
-                    </Card>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-          </Carousel>
-        </ScrollReveal>
+        <div className="flex flex-col gap-4">
+            <ScrollReveal delay={200}>
+            <Carousel
+                plugins={[plugin.current]}
+                className="w-full max-w-full mx-auto"
+                onMouseEnter={plugin.current.stop}
+                onMouseLeave={plugin.current.reset}
+                opts={{
+                align: "start",
+                loop: true,
+                }}
+            >
+                <CarouselContent>
+                {showcaseItems.map((item) => (
+                    <CarouselItem key={item.id} className="basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+                    <div className="p-1 h-full">
+                        <Card className="overflow-hidden shadow-2xl border-2 border-border group h-full">
+                        <div className="relative aspect-[4/3] w-full">
+                            <Image
+                            src={item.imageUrl}
+                            alt={item.alt}
+                            fill
+                            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
+                            className="object-cover transition-transform duration-300 group-hover:scale-105"
+                            data-ai-hint={item.hint}
+                            />
+                        </div>
+                        </Card>
+                    </div>
+                    </CarouselItem>
+                ))}
+                </CarouselContent>
+            </Carousel>
+            </ScrollReveal>
+            <ScrollReveal delay={400}>
+            <Carousel
+                plugins={[plugin2.current]}
+                className="w-full max-w-full mx-auto"
+                onMouseEnter={plugin2.current.stop}
+                onMouseLeave={plugin2.current.reset}
+                opts={{
+                align: "start",
+                loop: true,
+                direction: 'right'
+                }}
+            >
+                <CarouselContent>
+                {showcaseItems2.map((item) => (
+                    <CarouselItem key={item.id} className="basis-1/2 md:basis-1/3 lg:basis-1/4 xl:basis-1/5">
+                    <div className="p-1 h-full">
+                        <Card className="overflow-hidden shadow-2xl border-2 border-border group h-full">
+                        <div className="relative aspect-[4/3] w-full">
+                            <Image
+                            src={item.imageUrl}
+                            alt={item.alt}
+                            fill
+                            sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 20vw"
+                            className="object-cover transition-transform duration-300 group-hover:scale-105"
+                            data-ai-hint={item.hint}
+                            />
+                        </div>
+                        </Card>
+                    </div>
+                    </CarouselItem>
+                ))}
+                </CarouselContent>
+            </Carousel>
+            </ScrollReveal>
+        </div>
       </div>
     </section>
   )
