@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "fit-breakfast",
-      "description": "A healthy fit breakfast with oats and berries.",
-      "imageUrl": "https://images.unsplash.com/photo-1610635967007-34ebbd66f64d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoZWFsdGh5JTIwYnJlYWtmYXN0fGVufDB8fHx8MTc2NjY4NjcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "healthy breakfast"
+      "description": "Panquecas de banana fit com aveia.",
+      "imageUrl": "https://i.postimg.cc/xCCySjzD/panqueca-de-banana-fit-com-aveia-730x480.jpg",
+      "imageHint": "banana pancake"
     },
     {
       "id": "zero-desserts",
