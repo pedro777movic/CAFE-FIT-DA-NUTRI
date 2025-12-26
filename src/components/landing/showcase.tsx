@@ -15,31 +15,31 @@ import { ScrollReveal } from "@/components/scroll-reveal"
 const showcaseItems = [
   {
     id: "showcase-1",
-    imageUrl: "https://picsum.photos/seed/10/800/600",
+    imageUrl: "https://i.postimg.cc/5yDXTbBf/01-5.jpg",
     alt: "Showcase image 1",
     hint: "food app"
   },
   {
     id: "showcase-2",
-    imageUrl: "https://picsum.photos/seed/11/800/600",
+    imageUrl: "https://i.postimg.cc/L4WgnBrj/03-7.png",
     alt: "Showcase image 2",
     hint: "healthy meal"
   },
   {
     id: "showcase-3",
-    imageUrl: "https://picsum.photos/seed/12/800/600",
+    imageUrl: "https://i.postimg.cc/3rq0dCPG/1118853dc5ec0c7eedbbbec7a2e6e264.jpg",
     alt: "Showcase image 3",
     hint: "recipe plan"
   },
   {
     id: "showcase-4",
-    imageUrl: "https://picsum.photos/seed/13/800/600",
+    imageUrl: "https://i.postimg.cc/xjZNcyWH/323d0e4336dcb9bbe1833c62a820.png",
     alt: "Showcase image 4",
     hint: "mobile fitness"
   },
   {
     id: "showcase-5",
-    imageUrl: "https://picsum.photos/seed/14/800/600",
+    imageUrl: "https://i.postimg.cc/d3ghpw21/4-pratos-fitness-para-incluir-no-dia-a-dia-bh-mulher-1.jpg",
     alt: "Showcase image 5",
     hint: "easy cooking"
   },
@@ -48,34 +48,58 @@ const showcaseItems = [
 const showcaseItems2 = [
     {
       id: "showcase-6",
-      imageUrl: "https://picsum.photos/seed/15/800/600",
+      imageUrl: "https://i.postimg.cc/br4ZWpxw/5-receitas-fitness-praticas-para-o-jantar.jpg",
       alt: "Showcase image 6",
       hint: "fit dessert"
     },
     {
       id: "showcase-7",
-      imageUrl: "https://picsum.photos/seed/16/800/600",
+      imageUrl: "https://i.postimg.cc/MHgnNq7K/5f1075b74c3be8b3cf01d6a1700ecd0b.jpg",
       alt: "Showcase image 7",
       hint: "quick breakfast"
     },
     {
       id: "showcase-8",
-      imageUrl: "https://picsum.photos/seed/17/800/600",
+      imageUrl: "https://i.postimg.cc/DfN48dtQ/a8fc28694dfba997b42e3fcb81431323.jpg",
       alt: "Showcase image 8",
       hint: "protein shake"
     },
     {
       id: "showcase-9",
-      imageUrl: "https://picsum.photos/seed/18/800/600",
+      imageUrl: "https://i.postimg.cc/9Xkwrtvt/cf17eec37e66843a9770e49af26b2bd7.jpg",
       alt: "Showcase image 9",
       hint: "healthy lunch"
     },
     {
       id: "showcase-10",
-      imageUrl: "https://picsum.photos/seed/19/800/600",
+      imageUrl: "https://i.postimg.cc/1RdVfcLH/efa521e945a4b5b93f0dabff69faa72a.jpg",
       alt: "Showcase image 10",
       hint: "meal prep"
     },
+     {
+      id: "showcase-11",
+      imageUrl: "https://i.postimg.cc/3rq0dCP9/hamburguer-com-abobrinha-fitness-121358-800x450.webp",
+      alt: "Showcase image 11",
+      hint: "fit burger"
+    },
+    {
+        id: "showcase-12",
+        imageUrl: "https://i.postimg.cc/mZn1tN0m/hamburguer-de-frango-fit-com-aveia-730x480.jpg",
+        alt: "Showcase image 12",
+        hint: "chicken burger"
+    },
+    {
+        id: "showcase-13",
+        imageUrl: "https://i.postimg.cc/DfN48dtB/httpsrevistaanamaria-com-brmediauploadslegacy20200902manjar-com-calda-de-ameixa-fit-um-prato-saboro.jpg",
+        alt: "Showcase image 13",
+        hint: "fit pudding"
+    },
+    {
+        id: "showcase-14",
+        imageUrl: "https://i.postimg.cc/KcW3Rrd9/i-Stock-515862304.jpg",
+        alt: "Showcase image 14",
+        hint: "healthy food"
+    }
   ]
 
 export function Showcase() {
