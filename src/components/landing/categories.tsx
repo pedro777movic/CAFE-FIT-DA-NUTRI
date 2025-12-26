@@ -30,9 +30,9 @@ export function Categories() {
       <div className="container px-4 md:px-6">
         <ScrollReveal>
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Pare de pensar. Apenas coma.</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Menos decisões. Mais leveza.</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Do café da manhã ao jantar. Comida de verdade, prazer real, resultado visível. Simples assim.
+            Do café da manhã ao jantar, receitas simples que funcionam no dia a dia. Comida de verdade, prazer ao comer e resultados que aparecem com o tempo.
             </p>
           </div>
         </ScrollReveal>
