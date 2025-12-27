@@ -191,6 +191,11 @@ export function Showcase() {
             </Carousel>
             </ScrollReveal>
         </div>
+        <ScrollReveal delay={300}>
+          <p className="text-center text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed mt-12 max-w-3xl mx-auto">
+            Um app de receitas fit que elimina o caos mental da dieta e devolve o controle — sem esforço, sem culpa e sem regras.
+          </p>
+        </ScrollReveal>
       </div>
     </section>
   )
