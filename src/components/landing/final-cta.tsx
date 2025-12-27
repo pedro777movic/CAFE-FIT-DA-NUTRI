@@ -11,7 +11,7 @@ export function FinalCta() {
               Você chegou até aqui.
             </h2>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-              Não é sobre começar. É sobre continuar.
+              Antes de continuar, só um detalhe importante: isso não é sobre força de vontade — é sobre ter o ambiente certo para decidir melhor, todos os dias.
             </p>
             <div className="flex flex-col items-center space-y-4">
               <Button size="lg" variant="secondary" className="text-lg px-10 py-6 font-bold shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-shadow">
