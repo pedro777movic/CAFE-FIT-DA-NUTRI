@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import { Card, CardHeader, CardTitle } from "@/components/ui/card"
 import { PlaceHolderImages } from "@/lib/placeholder-images"
@@ -22,7 +23,7 @@ const categories = [
   {
     id: "protein-airfryer",
     title: "Prático, rápido, fit",
-    kcal: "~420 kcal",
+    kcal: "~370 kcal",
   },
 ]
 
