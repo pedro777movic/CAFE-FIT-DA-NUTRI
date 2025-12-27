@@ -11,7 +11,9 @@ export function Header() {
       </Link>
       <span className="ml-4 text-2xl font-bold font-headline">Café Fit da Nutri</span>
       <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Button>Quero o controle</Button>
+        <Link href="#final-cta" passHref>
+          <Button>Quero o controle</Button>
+        </Link>
       </nav>
     </header>
   )
