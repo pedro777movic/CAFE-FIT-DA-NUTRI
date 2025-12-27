@@ -9,7 +9,7 @@ export function Header() {
         <Coffee className="h-6 w-6 text-primary" />
         <span className="sr-only">Café Fit da Nutri</span>
       </Link>
-      <span className="ml-4 text-2xl font-bold font-headline">Café Fit da Nutri</span>
+      <span className="ml-2 md:ml-4 text-xl md:text-2xl font-bold font-headline">Café Fit da Nutri</span>
       <nav className="ml-auto flex gap-4 sm:gap-6">
         <Link href="#final-cta" passHref>
           <Button>Quero o controle</Button>
