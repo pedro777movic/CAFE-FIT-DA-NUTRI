@@ -14,7 +14,7 @@ export function Hero() {
                 A culpa é.
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl mt-4">
-                Um app de receitas fit que elimina o caos mental da dieta e devolve o controle — sem esforço, sem culpa e sem regras.
+                Um sistema simples de receitas que tira o peso das decisões e devolve o controle da sua alimentação — com leveza, não com regras.
               </p>
             </div>
             <Button size="lg" className="text-lg px-8 py-6 font-bold">
