@@ -119,7 +119,7 @@ export function Showcase() {
               + 500 Receitas Fit
             </h2>
             <p className="max-w-[900px] text-xl text-muted-foreground md:text-2xl/relaxed lg:text-xl/relaxed xl:text-2xl/relaxed">
-              Você pode comer isso!
+              Sim. Você pode comer isso.
             </p>
           </div>
         </ScrollReveal>
