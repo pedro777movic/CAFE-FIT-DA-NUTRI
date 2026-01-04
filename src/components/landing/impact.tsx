@@ -5,7 +5,7 @@ const features = [
   {
     icon: <Dumbbell className="w-12 h-12 text-primary" />,
     title: "Comer sem culpa.",
-    description: "Aquele alívio de comer o que gosta, sabendo que está no caminho certo. Sem autojulgamento. Apenas prazer.",
+    description: "Aquele alívio silencioso depois de comer — sem precisar compensar depois, sem peso na consciência. Você come o que gosta e sente, pela primeira vez em muito tempo, que está tudo bem.",
   },
   {
     icon: <Zap className="w-12 h-12 text-primary" />,
