@@ -15,7 +15,7 @@ export function Hero() {
                 A culpa é.
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground text-lg md:text-xl mt-4">
-                Um sistema simples de receitas que tira o peso das decisões e devolve o controle da sua alimentação — com leveza, não com regras.
+                Quando comer deixa de ser um conflito mental e volta a ser algo simples do dia a dia.
               </p>
             </div>
             <Link href="#final-cta" passHref>
