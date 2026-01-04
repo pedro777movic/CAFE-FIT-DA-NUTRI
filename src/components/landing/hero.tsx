@@ -15,7 +15,7 @@ export function Hero() {
                 A culpa é.
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground text-lg md:text-xl mt-4">
-                Quando comer deixa de ser um conflito mental e volta a ser algo simples do dia a dia.
+                Um sistema simples de receitas para quem está cansada de pensar, se culpar e sentir que nunca acerta na alimentação.
               </p>
             </div>
             <Link href="#final-cta" passHref>
