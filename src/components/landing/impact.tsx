@@ -10,7 +10,7 @@ const features = [
   {
     icon: <Zap className="w-12 h-12 text-primary" />,
     title: "Retomar o controle.",
-    description: "A sensação de poder de volta nas suas mãos. Você decide. Você domina. A rotina se torna simples e leve.",
+    description: "Não é sobre força de vontade. É acordar sabendo exatamente o que comer, sem discutir consigo mesma, sem cansar a mente. A rotina flui. A decisão já está tomada.",
   },
   {
     icon: <ShieldCheck className="w-12 h-12 text-primary" />,
