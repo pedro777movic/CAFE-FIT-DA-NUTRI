@@ -18,7 +18,7 @@ export function Hero() {
                 Um sistema simples de receitas para quem está cansada de pensar, se culpar e sentir que nunca acerta na alimentação.
               </p>
             </div>
-            <Link href="#final-cta" passHref>
+            <Link href="https://pay.cakto.com.br/3fmx6e8_558568" target="_blank" rel="noopener noreferrer" passHref>
               <Button size="lg" className="text-lg px-8 py-6 font-bold">
                 Liberar meu acesso
               </Button>

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { ScrollReveal } from "@/components/scroll-reveal"
 import { Check } from "lucide-react"
+import Link from "next/link"
 
 export function FinalCta() {
   const features = [
@@ -26,9 +27,11 @@ export function FinalCta() {
             </div>
             
             <div className="flex flex-col items-center space-y-4">
-              <Button size="lg" variant="secondary" className="text-lg px-10 py-6 font-bold shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-shadow">
-                Liberar meu acesso
-              </Button>
+              <Link href="https://pay.cakto.com.br/3fmx6e8_558568" target="_blank" rel="noopener noreferrer" passHref>
+                <Button size="lg" variant="secondary" className="text-lg px-10 py-6 font-bold shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-shadow">
+                  Liberar meu acesso
+                </Button>
+              </Link>
                <p className="text-sm text-muted-foreground">Acesso liberado por tempo limitado</p>
             </div>
 
