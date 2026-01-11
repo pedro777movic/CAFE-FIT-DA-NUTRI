@@ -11,7 +11,7 @@ export function Header() {
       </Link>
       <span className="ml-2 md:ml-4 text-xl md:text-2xl font-bold font-headline">Café Fit da Nutri</span>
       <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Link href="#final-cta" passHref>
+        <Link href="https://pay.cakto.com.br/3fmx6e8_558568" target="_blank" rel="noopener noreferrer" passHref>
           <Button>Quero o controle</Button>
         </Link>
       </nav>
